@@ -4,26 +4,82 @@
     box-sizing: border-box;
 }
 
-.topbar{
-    width: 100%;
-    height: 10%;
-    background-color: #54AB84;
+.doppio-one-regular {
+  font-family: "Doppio One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.topbar h1{
+.topbar{
+    width: 100%;
+    height: 8.75rem;
+    background-color: #54AB84;
+    position: fixed;
+}
+
+.filler{
+    height: 35%;
+}
+
+.name{
+    height: 40%;
+}
+
+.name h1{
     color: #000;
     font-family: "Source Sans 3";
     font-size: 3.11063rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-left: auto;
+    margin-left: 2.5%;
     margin-right: auto;
     background-color: #54AB84;
 }
 
-.box{
+.bottom{
+    height: 25%;
+    display: flex;
+}
+
+.bottom h2{
+    margin-left: 2.5%;
+    margin-right: auto;
+    margin-top: 0.1rem;
+    margin-bottom: auto;
+    font-family: "Source Sans 3";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text{
+    margin-left: 2.5%;
+    height: 100%;
+    width: 30%;
+}
+
+.icon{
+    height: 100%;
+    width: 10%;
+}
+
+.icon i{
+    height: 100%;
+    width: 10%;
+}
+
+.settings{
+    width: auto;
+}
+
+.sohil{
     width: 300px;
     height: 300px;
-    background-color: #000;
+    background-color: #273B09;
+}
+
+.yo{
+    margin-bottom: 50rem;
 }
