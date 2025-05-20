@@ -61,17 +61,19 @@
 }
 
 .icon{
-    height: 100%;
-    width: 10%;
+    height: 2.5rem;
+    width: 2.5rem;
 }
 
-.icon i{
+.material-symbols-outlined{
     height: 100%;
     width: 10%;
+    margin-top: 0.2rem;
 }
 
 .settings{
     width: auto;
+    margin-left: 45%;
 }
 
 .sohil{
