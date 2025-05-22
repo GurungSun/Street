@@ -93,6 +93,13 @@
 
 .sohil{
     margin-top: 10rem;
+    height: 20rem;
+    width: auto;
+}
+
+.sohil img{
+    width: 100%;
+    height: auto;
 }
 
 .tob{
