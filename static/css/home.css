@@ -12,18 +12,19 @@
 
 .topbar{
     width: 100%;
-    height: 8.75rem;
+    height: 10rem;
     background-color: #54AB84;
     position: sticky;
     top: 0;
+    box-shadow: 0rem 0rem 0.1rem;  
 }
 
 .filler{
-    height: 35%;
+    height: 30%;
 }
 
 .name{
-    height: 40%;
+    height: 45%;
 }
 
 .name h1{
@@ -36,17 +37,20 @@
     margin-left: 2.5%;
     margin-right: auto;
     background-color: #54AB84;
+    margin-bottom: 0.2rem;
 }
 
 .bottom{
     height: 25%;
     display: flex;
+    box-shadow: #000;
+    box-shadow: 0rem 0rem 0.15rem;  
 }
 
 .bottom h2{
     margin-left: 2.5%;
     margin-right: auto;
-    margin-top: 0.1rem;
+    margin-top: 0.4rem;
     margin-bottom: auto;
     font-family: "Source Sans 3";
     font-size: 1.25rem;
@@ -59,11 +63,15 @@
     margin-left: 2.5%;
     height: 100%;
     width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .icon{
     height: 2.5rem;
     width: 2.5rem;
+    margin-top: 0.4rem;
+    margin-bottom: auto;
 }
 
 .material-symbols-outlined{
@@ -75,6 +83,7 @@
 .settings{
     width: auto;
     margin-left: 45%;
+    margin-top: 0.4rem;
 }
 
 .stuff{
@@ -83,13 +92,37 @@
 }
 
 .sohil{
-    margin-top: 100rem;
-    width: 300px;
-    height: 300px;
-    background-color: #273B09;
+    margin-top: 10rem;
 }
 
 .tob{
     height:10rem;
-    margin-top: 2rem;
+    width: 100%;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.title h1{
+    color: #000;
+    font-family: "Source Sans 3";
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contents{
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+}
+
+.contents li{
+    color: #000;
+
+    /* Body - 20px */
+    font-family: "Source Sans 3";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
