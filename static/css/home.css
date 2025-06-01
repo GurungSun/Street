@@ -88,7 +88,7 @@
 
 .stuff{
     top: 6rem;
-    
+    width: 100%;
 }
 
 .sohil{
@@ -105,7 +105,8 @@
 .tob{
     height:10rem;
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     margin-left: 1rem;
 }
 
@@ -125,11 +126,63 @@
 
 .contents li{
     color: #000;
-
-    /* Body - 20px */
     font-family: "Source Sans 3";
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.streetImg img{
+    width: 25rem;
+    height: auto;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.class1{
+    height:10rem;
+    width: 100%;
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+.heading{
+    height: 30%;
+}
+
+.heading h1{
+    color: #000;
+    font-family: "Source Sans 3";
+    font-size: 2.16rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.class1 p{
+    margin-top: 1rem;
+    height: auto;
+    width: 90%;
+    color: #000;
+    font-family: "Source Sans 3";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image{
+    width: 25rem;
+    height: auto;
+    margin-top: 4rem;
+}
+
+.class2{
+    height:10rem;
+    width: 100%;
+    margin-top: 4rem;
+    margin-left: 1rem;
 }
