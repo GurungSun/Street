@@ -10,6 +10,29 @@
   font-style: normal;
 }
 
+.a{
+    text-decoration: none;
+}
+
+.navi{
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.top{
+    text-decoration: none;
+    color: #000;
+}
+
+.html{
+    scroll-behavior: smooth;
+}
+
+.anchor{
+    top: 0;
+    position: 0;
+}
+
 .topbar{
     width: 100%;
     height: 10rem;
@@ -38,6 +61,16 @@
     margin-right: auto;
     background-color: #54AB84;
     margin-bottom: 0.2rem;
+}
+
+.name a{
+    color: #000;
+    font-family: "Source Sans 3";
+    font-size: 3.11063rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #54AB84;
 }
 
 .bottom{
@@ -105,7 +138,7 @@
 
 .tob{
     height:10rem;
-    width: 100%;
+    width: 90%;
     margin-top: 3rem;
     margin-bottom: 3rem;
     margin-left: 1rem;
@@ -141,13 +174,6 @@
     margin-top: 4rem;
 }
 
-.class1{
-    height:auto;
-    width: 100%;
-    margin-top: 4rem;
-    margin-left: 1rem;
-}
-
 .heading{
     height: 30%;
 }
@@ -163,7 +189,7 @@
     margin-bottom: auto;
 }
 
-.class1 p{
+.stuff p{
     margin-top: 1rem;
     height: auto;
     width: 90%;
@@ -178,12 +204,110 @@
 .image{
     width: 25rem;
     height: auto;
-    margin-top: 4rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
 }
 
-.class2{
+.image img{
+    width: 25rem;
+    height: auto;
+}
+
+.class{
     height:auto;
     width: 100%;
     margin-top: 4rem;
+}
+
+.class h1{
     margin-left: 1rem;
+}
+
+.class p{
+    margin-left: 1rem;
+}
+
+.space{
+    margin-top: 3rem;
+}
+
+.double{
+    display: flex;
+    height: 18rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.cardR{
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardL{
+    height: 100%;
+    width: 50%;
+    
+}
+
+.images{
+    width: 10rem;
+    height: 15rem;
+    border-radius: 1rem;
+    align-self: center;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.1rem;  
+}
+
+.names{
+    height: 4rem;
+    width: 100%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.names p{
+    text-align: left;
+    margin-left: 15%;
+}
+
+.card{
+    width: 90%;
+    height: 20rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.ImgS{
+    height: auto;
+    width: 100%;
+}
+
+.ImgS img{
+    height: auto;
+    width: 100%;
+}
+
+.ImgN{
+    height: 3rem;
+    width: 90%;
+        margin-top: 2rem;
+margin-left: 0%;
+    margin-right: auto;
+}
+
+.ImgN p{
+    text-align: left;
+    margin-left: 0%;
+    width: 100%;
 }
