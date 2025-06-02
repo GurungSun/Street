@@ -89,6 +89,7 @@
 .stuff{
     top: 6rem;
     width: 100%;
+    height: 100%;
 }
 
 .sohil{
@@ -141,7 +142,7 @@
 }
 
 .class1{
-    height:10rem;
+    height:auto;
     width: 100%;
     margin-top: 4rem;
     margin-left: 1rem;
@@ -181,7 +182,7 @@
 }
 
 .class2{
-    height:10rem;
+    height:auto;
     width: 100%;
     margin-top: 4rem;
     margin-left: 1rem;
